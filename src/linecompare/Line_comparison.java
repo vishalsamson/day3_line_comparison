@@ -31,13 +31,9 @@ public class Line_comparison {
         String val1=String.valueOf(lenthOfline_1);
         String val2=String.valueOf(lenthOfline_2);
        
-        if(val1.equals(val2)){
-                System.out.println("Both lines are equal");
-        }
-        else {
-                System.out.println("Both lines are not equal");
-        }
-        scanner.close();
+        int result=(val1.compareTo(val2));
+        System.out.println("Result is :"+result);
+        
 
 	}
 
